@@ -1,22 +1,27 @@
-# Executive Summary
+# Executive summary
 
-This project analyzes churn in a European banking customer dataset using segmentation, demographic comparison, and financial-risk analysis.
+This executive summary highlights the objectives, key findings (when available), and recommended actions for policymakers and bank executives.
 
-## Business challenge
-Banks often track overall churn but do not effectively decompose churn risk by customer segment. This project addresses the need for segmentation-based analytics to identify which customer groups are most exposed to churn.
+Objective
+- Understand which customer segments are most likely to churn across France, Spain, and Germany, and quantify the financial exposure.
 
-## Key questions
-- Which segments have the highest churn rates?
-- How does churn differ by geography and age?
-- Are high-balance or high-salary customers at particular risk?
-- Which customer groups should be prioritized for retention campaigns?
+Key deliverables
+- EDA notebook with segment-level churn analysis
+- Streamlit dashboard for interactive exploration and drill-down
+- Research paper draft and stakeholder-facing executive summary
 
-## Proposed outcomes
-- Overall churn benchmark
-- Segment-level churn by geography, age, tenure, and balance
-- Comparison of retained vs churned customers
-- High-value churn risk identification
-- Dashboard-ready business insights for strategy and marketing teams
+Early expected insights (to be updated after EDA)
+- Overall churn rate benchmark
+- Country-level churn comparison and hotspots
+- Age and tenure patterns influencing churn
+- High-value customer churn and estimated balance at risk
 
-## Expected narrative
-The final analysis should help stakeholders understand churn not as a single rate, but as a segmented risk pattern shaped by geography, financial stability, and customer engagement.
+Recommended actions
+- Prioritize high-balance customers showing early inactivity
+- Design targeted offers by tenure group (new vs mid-term)
+- Monitor product portfolios for customers with multiple products and recent inactivity
+
+Next steps
+1. Run EDA and populate results in the research draft
+2. Complete Streamlit dashboard and enable drill-down filters
+3. Validate model findings against additional data sources and run A/B tests for retention campaigns
